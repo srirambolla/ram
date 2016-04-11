@@ -1,0 +1,11 @@
+<resources>
+
+
+
+    <string name="app_name">MyApplication1</string>
+
+    <string name="texton"> On</string>
+    <string name="textoff"> Off</string>
+    <string name="toggle_submit">submit</string>
+</resources>
+
