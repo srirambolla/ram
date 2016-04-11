@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light">#FFFFFF</color>
+    <color name="liter_grey">#f1f1f1</color>
+    <color name="lite_grey">#d9d9d9</color>
+    <color name="dark_grey">#cccccc</color>
+    <color name="dark_grey_for_button">#000000</color>
+    <color name="dark">#000000</color>
+    <color name="transperent">#00FFFFFF</color>
+    <color name="purple">#800080</color>
+</resources>
