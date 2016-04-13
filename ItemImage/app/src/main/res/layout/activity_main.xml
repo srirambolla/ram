@@ -6,6 +6,11 @@
     android:orientation="horizontal"
     android:padding="16dp"
     tools:context="com.example.righteous_05.itemimage.MainActivity">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list">
+    </ListView>
 
 <LinearLayout
     android:orientation="vertical"
