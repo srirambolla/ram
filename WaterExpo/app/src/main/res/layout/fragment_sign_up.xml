@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.SignUpFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/image1"
+        android:src="@drawable/googleimage1"/>
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+         android:src="@drawable/fbimage1"
+        android:id="@+id/image2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Sign Up"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/text1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edit1"
+        android:layout_margin="10dp"
+        android:hint="Enter phone number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edit2"
+        android:layout_margin="10dp"
+        android:hint="Enter Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edit3"
+        android:layout_margin="10dp"
+        android:hint="Confirm Password"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/B1"
+    android:text="Sign up"
+    android:layout_gravity="end"
+    android:textAllCaps="false"
+    />
+
+
+</LinearLayout>
