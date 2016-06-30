@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         text2.setText("\t \t\n" +
                 "Since you are creating a chat/message application. You should append new typed text to textview and not overwrite what is already present. And remove the semicolon from the end. Put your Button button = (Button)findViewById(R.id.button_send); and all other controls in protected void onCreate(Bundle savedInstanceState) – GunJack Mar 6 '13 at 5:45");
 
-
         Typeface tf3 = Typeface.createFromAsset(getAssets(), "fonts/Windsong.ttf");
         text3.setTypeface(tf3);
         text3.setText("\t \t\n" +

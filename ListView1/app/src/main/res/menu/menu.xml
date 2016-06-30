@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ListView1="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_add"
+        android:orderInCategory="100"
+        ListView1:showAsAction="ifRoom|withText"
+        android:title="@string/menu_add"
+        android:icon="@android:drawable/ic_input_add"/>
+
+    <item
+        android:id="@+id/menu_rate"
+        android:orderInCategory="200"
+        ListView1:showAsAction="ifRoom|withText"
+        android:title="@string/menu_rate"
+        android:icon="@android:drawable/btn_star_big_on"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:orderInCategory="300"
+        ListView1:showAsAction="ifRoom|withText"
+        android:title="@string/menu_share"
+        android:icon="@android:drawable/ic_menu_share"/>
+</menu>
+

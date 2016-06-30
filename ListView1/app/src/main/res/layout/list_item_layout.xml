@@ -10,22 +10,24 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-
-        <TextView
-            android:id="@+id/prices"
+        <ImageView
             android:layout_width="0dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
-            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:id="@+id/image"/>
 
-
-            android:gravity="center" />
 
         <TextView
             android:id="@+id/discount"
             android:layout_width="0dp"
 
-            android:layout_height="50dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
             android:gravity="center" />
+
     </LinearLayout>
+
+
 </FrameLayout>
